@@ -210,6 +210,6 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
-	// Update terakhir untuk cek Vercel
+
 	tmpl.Execute(w, data)
 }
